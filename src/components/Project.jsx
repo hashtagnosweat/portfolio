@@ -59,8 +59,8 @@ const Project = () => {
           <div key={id} className="shadow-sm shadow-gray-600 rounded-lg">
             <img src={src} alt="" className="rounded-md duration-200 hover:scale-105"/>
             <div className="flex items-center justify-center">
-              <button onClick={() => window.open(code_link, "_blank")} className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">Demo</button>
-              <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">Code</button>
+              <button onClick={() => window.open(code_link, "_blank")} className="w-1/2 px-6 m-4 duration-200 hover:scale-105">Demo</button>
+              <button className="w-1/2 px-6 m-4 duration-200 hover:scale-105">Code</button>
             </div>
           </div>
           )}

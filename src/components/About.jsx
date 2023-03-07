@@ -18,17 +18,14 @@ const About = () => {
           />
         </div>
 
-        <p className="text-xl mt-5">
-        I'm a skilled software developer with experience in TypeScript and JavaScript, and expertise in frameworks like React, Node.js, and Three.js. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!
+        <p className="text-l mt-5 text-justify">
+        A recent bachelor graduate with background in information systems and online entrepreneurship who strives to provide the best quality of work to achieve a certain objective on time with excellence. I have hands-on experience in JavaScript, Node JS, Express JS, Mongo DB, and React JS and have been honing my web development and software testing abilities for the past three years. I am capable and passionate of continuous learning from senior developers with a desire to apply skills to a talented engineering team to develop quality solutions.
         </p>
 
         <br />
 
-        <p className="text-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-          sunt, sapiente atque suscipit et nesciunt quas provident quam tempora
-          voluptatem deleniti fugit aliquid. Temporibus, magni tempora
-          accusantium harum perferendis aliquid!
+        <p className="text-l">
+        Let's work together to bring your ideas to life!
         </p>
       </div>
     </div>
