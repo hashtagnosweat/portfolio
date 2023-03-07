@@ -67,9 +67,9 @@ const Expertise = () => {
       name="expertise"
       className="bg-gradient-to-b from-gray-800 to-black w-full h-fit sm:h-screen"
     >
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
+      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-gray-400">
         <div className="pb-8">
-          <p className="text-5xl font-bold inline border-b-4 border-gray-500">
+          <p className="text-5xl font-bold inline border-b-4 border-gray-500 text-gray-200">
             Expertise.
           </p>
         </div>
@@ -81,7 +81,7 @@ const Expertise = () => {
           
         <div key={id} className={`shadow-sm hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
             <img src={src} alt="" className="w-20 mx-auto" />
-            <p className="mt-4">{title}</p>
+            <p className="mt-2 md:mt-4 text-gray-200">{title}</p>
           </div>
 
           )
