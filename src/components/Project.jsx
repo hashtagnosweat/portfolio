@@ -50,7 +50,7 @@ const Project = () => {
           </div>
 
           <p className="my-5">
-            Following projects showcases my skills and experience through
+            Following projects showcase my skills and experience through
             real-world examples of my work. 
           </p>
 
