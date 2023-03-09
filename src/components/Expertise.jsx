@@ -5,9 +5,11 @@ import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/reactImage.png";
 import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
+import mongodb from "../assets/mongodb.png";
+import figma from "../assets/figma.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import bootstrap from "../assets/bootstrap.png";
 
 const Expertise = () => {
 
@@ -38,27 +40,39 @@ const Expertise = () => {
   },
     {
     id: 5,
-    src: tailwind,
-    title: 'Tailwind',
-    style: 'shadow-sky-400'
-  },
-    {
-    id: 6,
     src: nextjs,
     title: 'Next JS',
     style: 'shadow-white'
   },
     {
+    id: 6,
+    src: mongodb,
+    title: 'MongoDB',
+    style: 'shadow-green-400'
+  },
+    {
     id: 7,
-    src: graphql,
-    title: 'GraphQL',
-    style: 'shadow-pink-400'
+    src: tailwind,
+    title: 'Tailwind',
+    style: 'shadow-sky-400'
   },
     {
     id: 8,
+    src: bootstrap,
+    title: 'Bootstrap',
+    style: 'shadow-purple-500',
+  },
+    {
+    id: 9,
     src: github,
     title: 'GitHub',
     style: 'shadow-gray-400'
+  },
+    {
+    id: 10,
+    src: figma,
+    title: 'Figma',
+    style: 'shadow-pink-500'
   },
 ]
 
