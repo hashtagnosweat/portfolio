@@ -7,7 +7,7 @@ const About = () => {
     <div name="about" className="w-full h-fit sm:h-screen bg-gradient-to-b from-gray-800 to-black text-gray-400">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-5xl font-bold inline border-b-4 border-gray-400 text-gray-200">Overview.</p>
+          <p className="text-5xl font-bold inline border-b-4 border-gray-400 text-white">Overview.</p>
         </div>
 
         <div className="sm:hidden w-full">
@@ -19,7 +19,10 @@ const About = () => {
         </div>
 
         <p className="text-l mt-5">
-        Hi, my name is Rido Rachmatan! I am a recent bachelor graduate with background in information systems and online entrepreneurship who strives to provide the best quality of work to achieve a certain objective on time with excellence. I have hands-on experience in JavaScript, Node JS, Express JS, Mongo DB, and React JS and have been honing my web development and software testing abilities for the past three years. 
+        Hi, my name is Rido Rachmatan! I have just completed my undergraduate studies with a major in information systems, my goal is to provide the best quality of work to achieve a certain objective on time with excellence. I have hands-on experience in JavaScript, Node JS, Express JS, Mongo DB, and React JS and have been honing my web development and software testing abilities for the past three years.
+
+
+
         </p>
 
         <br />
