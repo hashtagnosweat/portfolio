@@ -75,10 +75,10 @@ const Project = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
           {projects.map(({ id, project_name, project_link, description, icon }) => (
             <div key={id} onClick={() => window.open(project_link, "_blank")}className="bg-gray-700 rounded-lg">
-              <div className="flex flex-col px-5 justify-start h-40 rounded-md hover:bg-gray-600 text-white">
-                <div className="pt-5">{icon}</div>
+              <div className="flex flex-col px-5 py-5 justify-start h-40 rounded-md hover:bg-gray-600 text-white">
+                <div>{icon}</div>
                 <h3 className="text-2xl font-bold">{project_name}</h3>
-                <p className="w-full text-gray-400 pt-1">{description}</p>
+                <p className="w-full text-gray-400 py-1">{description}</p>
               </div>
             </div>
           ))}
