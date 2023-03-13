@@ -19,7 +19,7 @@ const About = () => {
         </div>
 
         <p className="text-l mt-5">
-        Hi, I am a recent bachelor graduate with background in information systems and online entrepreneurship who strives to provide the best quality of work to achieve a certain objective on time with excellence. I have hands-on experience in JavaScript, Node JS, Express JS, Mongo DB, and React JS and have been honing my web development and digital design abilities for the past three years. 
+        Hi I am Rido Rachmatan, I am a recent bachelor graduate with background in information systems and online entrepreneurship who strives to provide the best quality of work to achieve a certain objective on time with excellence. I have hands-on experience in JavaScript, Node JS, Express JS, Mongo DB, and React JS and have been honing my web development and digital design abilities for the past three years. 
 
 
         </p>
